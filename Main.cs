@@ -116,11 +116,9 @@ namespace ChristmasNogs
 						if (t.name.Equals ("Nog")) {
 							t.name = "Santa Nog";
 
-							t.description = "As long as you have no more units than your opponent, Gallant Tortoise has [Armor] 2.";
-
 							Log (t.description);
 
-							t.flavor = "\"Classification very hard. I'm pretty sure it's not a plant. Appears festive at least.\"\n- - Ihrbraman, Creature Collector";
+							t.flavor = "\"Classification very hard. I'm pretty sure it's not a plant. Appears festive, at least.\"\n - Ihrbraman, Creature Collector";
 
 							Log (t.flavor);
 						}
